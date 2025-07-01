@@ -1,0 +1,31 @@
+{
+  "_axios-wEVgSxmm.js": {
+    "file": "assets/js/axios-wEVgSxmm.js",
+    "name": "axios"
+  },
+  "_react-vendor-BI3NJeJA.js": {
+    "file": "assets/js/react-vendor-BI3NJeJA.js",
+    "name": "react-vendor"
+  },
+  "_zustand-BIfx9q7L.js": {
+    "file": "assets/js/zustand-BIfx9q7L.js",
+    "name": "zustand",
+    "imports": [
+      "_react-vendor-BI3NJeJA.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/js/index-DFTu3V-o.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_zustand-BIfx9q7L.js",
+      "_react-vendor-BI3NJeJA.js",
+      "_axios-wEVgSxmm.js"
+    ],
+    "css": [
+      "assets/css/index-DaZLSXEp.css"
+    ]
+  }
+}
